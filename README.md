@@ -74,7 +74,3 @@ fastestimator train exponential_decay.py --init_lr 1e-2 --data_dir /folder/to/do
 ```
 fastestimator train lr_controller_weighted_acc.py --init_lr 1e-2 --data_dir /folder/to/download/data
 ```
-
-## Test results
-
-Each task is tried with different initial learning rates using 5 trials. Their training log is stored in `result` folder. The mean and average results for each task is summarized in Table 3, Table 4 and Table 5 of the paper.
