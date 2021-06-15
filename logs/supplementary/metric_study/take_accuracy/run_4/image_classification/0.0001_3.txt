@@ -1,0 +1,246 @@
+2021-02-02 07:24:34.847503: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-02-02 07:24:39.760637: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2021-02-02 07:24:39.760919: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-02 07:24:39.762069: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:00:1e.0 name: Tesla V100-SXM2-16GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-02-02 07:24:39.762132: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-02-02 07:24:39.764926: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-02-02 07:24:39.767233: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-02-02 07:24:39.767703: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-02-02 07:24:39.770362: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-02-02 07:24:39.771622: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-02-02 07:24:39.776448: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-02-02 07:24:39.776672: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-02 07:24:39.777943: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-02 07:24:39.779061: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2021-02-02 07:24:39.779567: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-02-02 07:24:39.788432: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2300075000 Hz
+2021-02-02 07:24:39.788927: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55fc63d2e050 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-02-02 07:24:39.788963: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-02-02 07:24:39.890665: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-02 07:24:39.891768: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55fc63d5a010 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-02-02 07:24:39.891811: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla V100-SXM2-16GB, Compute Capability 7.0
+2021-02-02 07:24:39.892210: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-02 07:24:39.893286: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:00:1e.0 name: Tesla V100-SXM2-16GB computeCapability: 7.0
+coreClock: 1.53GHz coreCount: 80 deviceMemorySize: 15.78GiB deviceMemoryBandwidth: 836.37GiB/s
+2021-02-02 07:24:39.893356: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-02-02 07:24:39.893452: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-02-02 07:24:39.893518: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2021-02-02 07:24:39.893579: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2021-02-02 07:24:39.893638: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2021-02-02 07:24:39.893698: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2021-02-02 07:24:39.893759: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2021-02-02 07:24:39.893898: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-02 07:24:39.895094: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-02 07:24:39.896153: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0
+2021-02-02 07:24:39.896237: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2021-02-02 07:24:40.552438: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-02-02 07:24:40.552491: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      0 
+2021-02-02 07:24:40.552502: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 0:   N 
+2021-02-02 07:24:40.552867: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-02 07:24:40.554098: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:982] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-02-02 07:24:40.555220: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14756 MB memory) -> physical GPU (device: 0, name: Tesla V100-SXM2-16GB, pci bus id: 0000:00:1e.0, compute capability: 7.0)
+2021-02-02 07:24:41.843743: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+2021-02-02 07:24:43.902505: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2021-02-02 07:24:44.200084: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+[93m FastEstimator-Warn: Consider using the ciFAIR10 dataset instead.[00m
+    ______           __  ______     __  _                 __            
+   / ____/___ ______/ /_/ ____/____/ /_(_)___ ___  ____ _/ /_____  _____
+  / /_  / __ `/ ___/ __/ __/ / ___/ __/ / __ `__ \/ __ `/ __/ __ \/ ___/
+ / __/ / /_/ (__  ) /_/ /___(__  ) /_/ / / / / / / /_/ / /_/ /_/ / /    
+/_/    \__,_/____/\__/_____/____/\__/_/_/ /_/ /_/\__,_/\__/\____/_/     
+                                                                        
+
+FastEstimator-Warn: No ModelSaver Trace detected. Models will not be saved.
+FastEstimator-Start: step: 1; logging_interval: 100; num_device: 1; 
+FastEstimator-Train: step: 1; ce: 7.8070555; model_lr: 1e-04; 
+FastEstimator-Train: step: 100; ce: 1.6358117; model_lr: 1e-04; steps/sec: 53.43; 
+FastEstimator-Train: step: 200; ce: 1.3658934; model_lr: 1e-04; steps/sec: 52.73; 
+FastEstimator-Train: step: 300; ce: 1.2535677; model_lr: 1e-04; steps/sec: 52.81; 
+FastEstimator-Train: step: 391; epoch: 1; epoch_time: 9.91 sec; 
+FastEstimator-Eval: step: 391; epoch: 1; accuracy: 0.6051; ce: 1.1188159; 
+FastEstimator-Train: step: 400; ce: 1.11248; model_lr: 1e-04; steps/sec: 37.97; 
+FastEstimator-Train: step: 500; ce: 1.1635656; model_lr: 1e-04; steps/sec: 52.21; 
+FastEstimator-Train: step: 600; ce: 0.9630177; model_lr: 1e-04; steps/sec: 52.28; 
+FastEstimator-Train: step: 700; ce: 1.0832223; model_lr: 1e-04; steps/sec: 52.36; 
+FastEstimator-Train: step: 782; epoch: 2; epoch_time: 7.54 sec; 
+FastEstimator-Eval: step: 782; epoch: 2; accuracy: 0.6875; ce: 0.8943183; 
+FastEstimator-Train: step: 800; ce: 0.88802755; model_lr: 1e-04; steps/sec: 50.96; 
+FastEstimator-Train: step: 900; ce: 0.849748; model_lr: 1e-04; steps/sec: 52.8; 
+FastEstimator-Train: step: 1000; ce: 1.0003499; model_lr: 1e-04; steps/sec: 52.77; 
+FastEstimator-Train: step: 1100; ce: 0.9491271; model_lr: 1e-04; steps/sec: 52.62; 
+FastEstimator-Train: step: 1173; epoch: 3; epoch_time: 7.49 sec; 
+FastEstimator-Eval: step: 1173; epoch: 3; accuracy: 0.7237; ce: 0.7952478; 
+multiplying lr by 1.0
+FastEstimator-Train: step: 1200; ce: 0.7832001; model_lr: 1e-04; steps/sec: 49.41; 
+FastEstimator-Train: step: 1300; ce: 0.72813547; model_lr: 1e-04; steps/sec: 52.76; 
+FastEstimator-Train: step: 1400; ce: 0.666502; model_lr: 1e-04; steps/sec: 52.64; 
+FastEstimator-Train: step: 1500; ce: 0.9234339; model_lr: 1e-04; steps/sec: 52.64; 
+FastEstimator-Train: step: 1564; epoch: 4; epoch_time: 7.54 sec; 
+FastEstimator-Eval: step: 1564; epoch: 4; accuracy: 0.7542; ce: 0.71098495; 
+FastEstimator-Train: step: 1600; ce: 0.7568343; model_lr: 1e-04; steps/sec: 50.86; 
+FastEstimator-Train: step: 1700; ce: 0.6530862; model_lr: 1e-04; steps/sec: 52.8; 
+FastEstimator-Train: step: 1800; ce: 0.6763997; model_lr: 1e-04; steps/sec: 52.73; 
+FastEstimator-Train: step: 1900; ce: 0.6680764; model_lr: 1e-04; steps/sec: 52.73; 
+FastEstimator-Train: step: 1955; epoch: 5; epoch_time: 7.48 sec; 
+FastEstimator-Eval: step: 1955; epoch: 5; accuracy: 0.7729; ce: 0.66703326; 
+FastEstimator-Train: step: 2000; ce: 0.6753863; model_lr: 1e-04; steps/sec: 50.58; 
+FastEstimator-Train: step: 2100; ce: 0.5499433; model_lr: 1e-04; steps/sec: 52.68; 
+FastEstimator-Train: step: 2200; ce: 0.647949; model_lr: 1e-04; steps/sec: 52.83; 
+FastEstimator-Train: step: 2300; ce: 0.673458; model_lr: 1e-04; steps/sec: 52.79; 
+FastEstimator-Train: step: 2346; epoch: 6; epoch_time: 7.52 sec; 
+FastEstimator-Eval: step: 2346; epoch: 6; accuracy: 0.7917; ce: 0.62039715; 
+multiplying lr by 1.0
+FastEstimator-Train: step: 2400; ce: 0.6613097; model_lr: 1e-04; steps/sec: 49.35; 
+FastEstimator-Train: step: 2500; ce: 0.5119278; model_lr: 1e-04; steps/sec: 52.69; 
+FastEstimator-Train: step: 2600; ce: 0.5524125; model_lr: 1e-04; steps/sec: 52.74; 
+FastEstimator-Train: step: 2700; ce: 0.5564021; model_lr: 1e-04; steps/sec: 52.61; 
+FastEstimator-Train: step: 2737; epoch: 7; epoch_time: 7.54 sec; 
+FastEstimator-Eval: step: 2737; epoch: 7; accuracy: 0.8051; ce: 0.57139397; 
+FastEstimator-Train: step: 2800; ce: 0.47800636; model_lr: 1e-04; steps/sec: 50.41; 
+FastEstimator-Train: step: 2900; ce: 0.67639434; model_lr: 1e-04; steps/sec: 52.81; 
+FastEstimator-Train: step: 3000; ce: 0.5288932; model_lr: 1e-04; steps/sec: 52.66; 
+FastEstimator-Train: step: 3100; ce: 0.5685722; model_lr: 1e-04; steps/sec: 52.43; 
+FastEstimator-Train: step: 3128; epoch: 8; epoch_time: 7.52 sec; 
+FastEstimator-Eval: step: 3128; epoch: 8; accuracy: 0.8213; ce: 0.52603066; 
+FastEstimator-Train: step: 3200; ce: 0.5607221; model_lr: 1e-04; steps/sec: 50.34; 
+FastEstimator-Train: step: 3300; ce: 0.5413096; model_lr: 1e-04; steps/sec: 52.8; 
+FastEstimator-Train: step: 3400; ce: 0.4917758; model_lr: 1e-04; steps/sec: 52.4; 
+FastEstimator-Train: step: 3500; ce: 0.5510305; model_lr: 1e-04; steps/sec: 52.88; 
+FastEstimator-Train: step: 3519; epoch: 9; epoch_time: 7.5 sec; 
+FastEstimator-Eval: step: 3519; epoch: 9; accuracy: 0.824; ce: 0.5220148; 
+multiplying lr by 1.618
+FastEstimator-Train: step: 3600; ce: 0.5948605; model_lr: 0.0001618; steps/sec: 49.87; 
+FastEstimator-Train: step: 3700; ce: 0.6843684; model_lr: 0.0001618; steps/sec: 52.78; 
+FastEstimator-Train: step: 3800; ce: 0.537046; model_lr: 0.0001618; steps/sec: 52.74; 
+FastEstimator-Train: step: 3900; ce: 0.57074267; model_lr: 0.0001618; steps/sec: 52.65; 
+FastEstimator-Train: step: 3910; epoch: 10; epoch_time: 7.52 sec; 
+FastEstimator-Eval: step: 3910; epoch: 10; accuracy: 0.8239; ce: 0.5378374; 
+FastEstimator-Train: step: 4000; ce: 0.50527257; model_lr: 0.0001618; steps/sec: 50.74; 
+FastEstimator-Train: step: 4100; ce: 0.46042058; model_lr: 0.0001618; steps/sec: 52.85; 
+FastEstimator-Train: step: 4200; ce: 0.47749403; model_lr: 0.0001618; steps/sec: 52.12; 
+FastEstimator-Train: step: 4300; ce: 0.47519475; model_lr: 0.0001618; steps/sec: 52.61; 
+FastEstimator-Train: step: 4301; epoch: 11; epoch_time: 7.52 sec; 
+FastEstimator-Eval: step: 4301; epoch: 11; accuracy: 0.8341; ce: 0.5025659; 
+FastEstimator-Train: step: 4400; ce: 0.5604644; model_lr: 0.0001618; steps/sec: 48.88; 
+FastEstimator-Train: step: 4500; ce: 0.6245107; model_lr: 0.0001618; steps/sec: 52.33; 
+FastEstimator-Train: step: 4600; ce: 0.28514582; model_lr: 0.0001618; steps/sec: 52.65; 
+FastEstimator-Train: step: 4692; epoch: 12; epoch_time: 7.58 sec; 
+FastEstimator-Eval: step: 4692; epoch: 12; accuracy: 0.8331; ce: 0.48619375; 
+multiplying lr by 1.0
+FastEstimator-Train: step: 4700; ce: 0.4407359; model_lr: 0.0001618; steps/sec: 49.6; 
+FastEstimator-Train: step: 4800; ce: 0.39637452; model_lr: 0.0001618; steps/sec: 52.18; 
+FastEstimator-Train: step: 4900; ce: 0.49055204; model_lr: 0.0001618; steps/sec: 52.42; 
+FastEstimator-Train: step: 5000; ce: 0.44116285; model_lr: 0.0001618; steps/sec: 52.64; 
+FastEstimator-Train: step: 5083; epoch: 13; epoch_time: 7.57 sec; 
+FastEstimator-Eval: step: 5083; epoch: 13; accuracy: 0.8498; ce: 0.44177902; 
+FastEstimator-Train: step: 5100; ce: 0.5307027; model_lr: 0.0001618; steps/sec: 50.46; 
+FastEstimator-Train: step: 5200; ce: 0.41120273; model_lr: 0.0001618; steps/sec: 52.71; 
+FastEstimator-Train: step: 5300; ce: 0.4508245; model_lr: 0.0001618; steps/sec: 52.96; 
+FastEstimator-Train: step: 5400; ce: 0.33925742; model_lr: 0.0001618; steps/sec: 52.52; 
+FastEstimator-Train: step: 5474; epoch: 14; epoch_time: 7.49 sec; 
+FastEstimator-Eval: step: 5474; epoch: 14; accuracy: 0.8505; ce: 0.4552374; 
+FastEstimator-Train: step: 5500; ce: 0.42556027; model_lr: 0.0001618; steps/sec: 49.74; 
+FastEstimator-Train: step: 5600; ce: 0.34390908; model_lr: 0.0001618; steps/sec: 52.54; 
+FastEstimator-Train: step: 5700; ce: 0.40088868; model_lr: 0.0001618; steps/sec: 52.92; 
+FastEstimator-Train: step: 5800; ce: 0.2908525; model_lr: 0.0001618; steps/sec: 52.58; 
+FastEstimator-Train: step: 5865; epoch: 15; epoch_time: 7.54 sec; 
+FastEstimator-Eval: step: 5865; epoch: 15; accuracy: 0.8597; ce: 0.42751038; 
+multiplying lr by 1.0
+FastEstimator-Train: step: 5900; ce: 0.34964517; model_lr: 0.0001618; steps/sec: 49.83; 
+FastEstimator-Train: step: 6000; ce: 0.31090242; model_lr: 0.0001618; steps/sec: 52.35; 
+FastEstimator-Train: step: 6100; ce: 0.35946503; model_lr: 0.0001618; steps/sec: 52.89; 
+FastEstimator-Train: step: 6200; ce: 0.26165512; model_lr: 0.0001618; steps/sec: 52.43; 
+FastEstimator-Train: step: 6256; epoch: 16; epoch_time: 7.54 sec; 
+FastEstimator-Eval: step: 6256; epoch: 16; accuracy: 0.8687; ce: 0.410785; 
+FastEstimator-Train: step: 6300; ce: 0.2566855; model_lr: 0.0001618; steps/sec: 50.04; 
+FastEstimator-Train: step: 6400; ce: 0.37882227; model_lr: 0.0001618; steps/sec: 52.85; 
+FastEstimator-Train: step: 6500; ce: 0.20835733; model_lr: 0.0001618; steps/sec: 52.78; 
+FastEstimator-Train: step: 6600; ce: 0.32712644; model_lr: 0.0001618; steps/sec: 53.08; 
+FastEstimator-Train: step: 6647; epoch: 17; epoch_time: 7.49 sec; 
+FastEstimator-Eval: step: 6647; epoch: 17; accuracy: 0.8668; ce: 0.40723437; 
+FastEstimator-Train: step: 6700; ce: 0.34890154; model_lr: 0.0001618; steps/sec: 50.7; 
+FastEstimator-Train: step: 6800; ce: 0.4101025; model_lr: 0.0001618; steps/sec: 52.51; 
+FastEstimator-Train: step: 6900; ce: 0.24467489; model_lr: 0.0001618; steps/sec: 52.57; 
+FastEstimator-Train: step: 7000; ce: 0.2728267; model_lr: 0.0001618; steps/sec: 52.69; 
+FastEstimator-Train: step: 7038; epoch: 18; epoch_time: 7.52 sec; 
+FastEstimator-Eval: step: 7038; epoch: 18; accuracy: 0.8657; ce: 0.40611237; 
+multiplying lr by 1.0
+FastEstimator-Train: step: 7100; ce: 0.29721516; model_lr: 0.0001618; steps/sec: 49.74; 
+FastEstimator-Train: step: 7200; ce: 0.4259455; model_lr: 0.0001618; steps/sec: 52.57; 
+FastEstimator-Train: step: 7300; ce: 0.3117289; model_lr: 0.0001618; steps/sec: 52.68; 
+FastEstimator-Train: step: 7400; ce: 0.19964823; model_lr: 0.0001618; steps/sec: 52.72; 
+FastEstimator-Train: step: 7429; epoch: 19; epoch_time: 7.53 sec; 
+FastEstimator-Eval: step: 7429; epoch: 19; accuracy: 0.8759; ce: 0.37188652; 
+FastEstimator-Train: step: 7500; ce: 0.22877955; model_lr: 0.0001618; steps/sec: 50.9; 
+FastEstimator-Train: step: 7600; ce: 0.3976055; model_lr: 0.0001618; steps/sec: 52.7; 
+FastEstimator-Train: step: 7700; ce: 0.30269396; model_lr: 0.0001618; steps/sec: 52.42; 
+FastEstimator-Train: step: 7800; ce: 0.24125022; model_lr: 0.0001618; steps/sec: 52.73; 
+FastEstimator-Train: step: 7820; epoch: 20; epoch_time: 7.5 sec; 
+FastEstimator-Eval: step: 7820; epoch: 20; accuracy: 0.8779; ce: 0.38313186; 
+FastEstimator-Train: step: 7900; ce: 0.14916077; model_lr: 0.0001618; steps/sec: 50.43; 
+FastEstimator-Train: step: 8000; ce: 0.32144216; model_lr: 0.0001618; steps/sec: 52.49; 
+FastEstimator-Train: step: 8100; ce: 0.3254115; model_lr: 0.0001618; steps/sec: 52.53; 
+FastEstimator-Train: step: 8200; ce: 0.3397413; model_lr: 0.0001618; steps/sec: 52.52; 
+FastEstimator-Train: step: 8211; epoch: 21; epoch_time: 7.52 sec; 
+FastEstimator-Eval: step: 8211; epoch: 21; accuracy: 0.882; ce: 0.36587852; 
+multiplying lr by 1.0
+FastEstimator-Train: step: 8300; ce: 0.18948305; model_lr: 0.0001618; steps/sec: 50.07; 
+FastEstimator-Train: step: 8400; ce: 0.17756136; model_lr: 0.0001618; steps/sec: 52.61; 
+FastEstimator-Train: step: 8500; ce: 0.23653203; model_lr: 0.0001618; steps/sec: 52.83; 
+FastEstimator-Train: step: 8600; ce: 0.26929927; model_lr: 0.0001618; steps/sec: 52.85; 
+FastEstimator-Train: step: 8602; epoch: 22; epoch_time: 7.53 sec; 
+FastEstimator-Eval: step: 8602; epoch: 22; accuracy: 0.8789; ce: 0.3723364; 
+FastEstimator-Train: step: 8700; ce: 0.21122403; model_lr: 0.0001618; steps/sec: 50.13; 
+FastEstimator-Train: step: 8800; ce: 0.17500442; model_lr: 0.0001618; steps/sec: 52.66; 
+FastEstimator-Train: step: 8900; ce: 0.30785555; model_lr: 0.0001618; steps/sec: 52.68; 
+FastEstimator-Train: step: 8993; epoch: 23; epoch_time: 7.52 sec; 
+FastEstimator-Eval: step: 8993; epoch: 23; accuracy: 0.8846; ce: 0.3700542; 
+FastEstimator-Train: step: 9000; ce: 0.18973197; model_lr: 0.0001618; steps/sec: 50.49; 
+FastEstimator-Train: step: 9100; ce: 0.16688421; model_lr: 0.0001618; steps/sec: 52.72; 
+FastEstimator-Train: step: 9200; ce: 0.277654; model_lr: 0.0001618; steps/sec: 52.36; 
+FastEstimator-Train: step: 9300; ce: 0.3015108; model_lr: 0.0001618; steps/sec: 52.49; 
+FastEstimator-Train: step: 9384; epoch: 24; epoch_time: 7.51 sec; 
+FastEstimator-Eval: step: 9384; epoch: 24; accuracy: 0.887; ce: 0.35803732; 
+multiplying lr by 1.0
+FastEstimator-Train: step: 9400; ce: 0.2288144; model_lr: 0.0001618; steps/sec: 49.44; 
+FastEstimator-Train: step: 9500; ce: 0.21742; model_lr: 0.0001618; steps/sec: 52.77; 
+FastEstimator-Train: step: 9600; ce: 0.18880025; model_lr: 0.0001618; steps/sec: 52.64; 
+FastEstimator-Train: step: 9700; ce: 0.15109505; model_lr: 0.0001618; steps/sec: 52.31; 
+FastEstimator-Train: step: 9775; epoch: 25; epoch_time: 7.56 sec; 
+FastEstimator-Eval: step: 9775; epoch: 25; accuracy: 0.8904; ce: 0.3370363; 
+FastEstimator-Train: step: 9800; ce: 0.15709835; model_lr: 0.0001618; steps/sec: 50.64; 
+FastEstimator-Train: step: 9900; ce: 0.29817486; model_lr: 0.0001618; steps/sec: 52.55; 
+FastEstimator-Train: step: 10000; ce: 0.244878; model_lr: 0.0001618; steps/sec: 52.37; 
+FastEstimator-Train: step: 10100; ce: 0.28784573; model_lr: 0.0001618; steps/sec: 52.46; 
+FastEstimator-Train: step: 10166; epoch: 26; epoch_time: 7.53 sec; 
+FastEstimator-Eval: step: 10166; epoch: 26; accuracy: 0.8883; ce: 0.35165134; 
+FastEstimator-Train: step: 10200; ce: 0.19610527; model_lr: 0.0001618; steps/sec: 49.84; 
+FastEstimator-Train: step: 10300; ce: 0.20957454; model_lr: 0.0001618; steps/sec: 52.7; 
+FastEstimator-Train: step: 10400; ce: 0.19909975; model_lr: 0.0001618; steps/sec: 52.5; 
+FastEstimator-Train: step: 10500; ce: 0.28493133; model_lr: 0.0001618; steps/sec: 52.3; 
+FastEstimator-Train: step: 10557; epoch: 27; epoch_time: 7.56 sec; 
+FastEstimator-Eval: step: 10557; epoch: 27; accuracy: 0.8909; ce: 0.34505635; 
+multiplying lr by 0.618
+FastEstimator-Train: step: 10600; ce: 0.16492704; model_lr: 9.9992394e-05; steps/sec: 49.28; 
+FastEstimator-Train: step: 10700; ce: 0.10959489; model_lr: 9.9992394e-05; steps/sec: 52.5; 
+FastEstimator-Train: step: 10800; ce: 0.1682355; model_lr: 9.9992394e-05; steps/sec: 52.73; 
+FastEstimator-Train: step: 10900; ce: 0.12865135; model_lr: 9.9992394e-05; steps/sec: 52.72; 
+FastEstimator-Train: step: 10948; epoch: 28; epoch_time: 7.56 sec; 
+FastEstimator-Eval: step: 10948; epoch: 28; accuracy: 0.9008; ce: 0.31098157; 
+FastEstimator-Train: step: 11000; ce: 0.12070882; model_lr: 9.9992394e-05; steps/sec: 49.66; 
+FastEstimator-Train: step: 11100; ce: 0.15519527; model_lr: 9.9992394e-05; steps/sec: 52.58; 
+FastEstimator-Train: step: 11200; ce: 0.122983575; model_lr: 9.9992394e-05; steps/sec: 52.29; 
+FastEstimator-Train: step: 11300; ce: 0.12885895; model_lr: 9.9992394e-05; steps/sec: 52.23; 
+FastEstimator-Train: step: 11339; epoch: 29; epoch_time: 7.56 sec; 
+FastEstimator-Eval: step: 11339; epoch: 29; accuracy: 0.8986; ce: 0.3202759; 
+FastEstimator-Train: step: 11400; ce: 0.16136989; model_lr: 9.9992394e-05; steps/sec: 50.36; 
+FastEstimator-Train: step: 11500; ce: 0.10756319; model_lr: 9.9992394e-05; steps/sec: 52.76; 
+FastEstimator-Train: step: 11600; ce: 0.07992799; model_lr: 9.9992394e-05; steps/sec: 52.8; 
+FastEstimator-Train: step: 11700; ce: 0.1369684; model_lr: 9.9992394e-05; steps/sec: 52.78; 
+FastEstimator-Train: step: 11730; epoch: 30; epoch_time: 7.5 sec; 
+FastEstimator-Eval: step: 11730; epoch: 30; accuracy: 0.8928; ce: 0.34769827; 
+FastEstimator-Finish: step: 11730; model_lr: 9.9992394e-05; total_time: 282.29 sec; 
