@@ -16,6 +16,7 @@ The trained weights used in the paper is in model/arc.h5. If you would like to r
 ```
 fastestimator train train_arc.py
 ```
+This command will train ARC and stored the model in model/checkpoint 
 
 ## Testing the ARC
 The testing scripts used in experiments are stored in `test` folder, to run any particular experiment, simply go to the corresponding folder.
