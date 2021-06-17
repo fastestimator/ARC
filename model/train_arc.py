@@ -144,7 +144,7 @@ def lstm_stacked(input_shape=(300, 3), num_classes=3):
     return model
 
 
-def get_estimator(epochs, data_dir="../data/offline_data.pkl", save_dir="./"):
+def get_estimator(epochs=300, data_dir="../data/offline_data.pkl", save_dir="./"):
     ckpt_save_dir = os.path.join(save_dir, "checkpoint")
     os.makedirs(ckpt_save_dir, exist_ok=True)
     train_ds = fe.dataset.NumpyDataset(data=load_pickle(data_dir))
