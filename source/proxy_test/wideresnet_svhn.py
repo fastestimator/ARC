@@ -318,12 +318,11 @@ def get_estimator(data_dir,
                   control_frequency=3,
                   batch_size=128,
                   epochs=30):
-    train_ds, test_ds = svhn_cropped.load()
+    train_ds, test_ds = svhn_cropped.load_data(data_dir)
     pipeline = fe.Pipeline(train_data=train_ds,
                            eval_data=test_ds,
                            batch_size=batch_size,
                            ops=[
-                               ReadImage(inputs="x", outputs="x"),
                                Scale(inputs="x", outputs="x"),
                                CoarseDropout(inputs="x",
                                              outputs="x",
