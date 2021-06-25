@@ -17,6 +17,7 @@ import fastestimator as fe
 import numpy as np
 import tensorflow as tf
 from fastestimator.backend import feed_forward, get_lr, set_lr
+from fastestimator.dataset.data import svhn_cropped
 from fastestimator.op.numpyop.univariate import CoarseDropout, ReadImage
 from fastestimator.op.tensorop.loss import CrossEntropy
 from fastestimator.op.tensorop.model import ModelOp, UpdateOp
@@ -317,8 +318,7 @@ def get_estimator(data_dir,
                   control_frequency=3,
                   batch_size=128,
                   epochs=30):
-    train_ds = fe.dataset.LabeledDirDataset(os.path.join(data_dir, "train"))
-    test_ds = fe.dataset.LabeledDirDataset(os.path.join(data_dir, "test"))
+    train_ds, test_ds = svhn_cropped.load()
     pipeline = fe.Pipeline(train_data=train_ds,
                            eval_data=test_ds,
                            batch_size=batch_size,
