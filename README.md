@@ -3,9 +3,9 @@ Autonomous Learning Rate Control (ARC) Guide.
 
 ## Pre-requisites
 
-* tensorflow == 2.4.1
-* PyTorch ==1.7.1
-* fastestimator==1.2.0
+* tensorflow == 2.3.1
+* PyTorch ==1.6.0
+* fastestimator==1.1.2
 
 ## Data
 Data used to train ARC model is stored in `data/offline_data.pkl`, it contains 5050 samples of training loss (resized), valdiation loss, and learning rate history from running 12 different tasks multiple times.
