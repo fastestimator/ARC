@@ -89,4 +89,6 @@ fastestimator train lr_controller_weighted_acc.py --init_lr 1e-2 --data_dir /fol
 
 ## Training logs
 
-Each task is tried with different initial learning rates using 5 trials. Their training log is stored in `logs` folder.
+Each task is tried with different initial learning rates using 5 trials. All training logs are stored in `logs` folder.
+
+Among the 5 trials, the log of median run is also collected in `median_logs` folder. This is used for plotting.
