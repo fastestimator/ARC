@@ -154,7 +154,7 @@ class LRController(fe.trace.Trace):
             model_inputs = np.concatenate((train_loss, val_loss, train_lr), axis=1)
             model_inputs = np.expand_dims(model_inputs, axis=0)
             # prediction
-            model_pred = feed_forward(model=self.controller, x=model_inputs, training=False)
+            model_pred = feed_forward(self.controller, model_inputs, training=False)
             action = np.argmax(model_pred)
             multiplier = self.lr_multiplier[action]
             current_lr = get_lr(model=self.model)
